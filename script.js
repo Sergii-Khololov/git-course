@@ -45,32 +45,32 @@
 // // console.log(tagCount);
 
 
-// const users = [
-//   { name: 'Mango', daysActive: 15 },
-//   { name: 'Poly', daysActive: 4 },
-//   { name: 'Ajax', daysActive: 27 },
-//   { name: 'Chelsey', daysActive: 2 },
-// ];
+const users = [
+  { name: 'Mango', daysActive: 15 },
+  { name: 'Poly', daysActive: 4 },
+  { name: 'Ajax', daysActive: 27 },
+  { name: 'Chelsey', daysActive: 2 },
+];
 
-// const sortByActiveDays = (a, b) => a.daysActive - b.daysActive;
+const sortByActiveDays = (a, b) => a.daysActive - b.daysActive;
 
-// console.log(users.sort(sortByActiveDays));
+console.log(users.sort(sortByActiveDays));
 
-// function calculateTotalPrice(orderedItems) {
-//   let totalPrice = 0;
-//   // Пиши код ниже этой строки
+function calculateTotalPrice(orderedItems) {
+  let totalPrice = 0;
+  // Пиши код ниже этой строки
 
-// orderedItems.forEach(num => totalPrice += num)
+orderedItems.forEach(num => totalPrice += num)
     
   
 
-//   // Пиши код выше этой строки
-//   return totalPrice;
-// }
+  // Пиши код выше этой строки
+  return totalPrice;
+}
 
-// console.log('calculateTotalPrice :>> ', calculateTotalPrice([12, 85, 37, 4])); // 138
-// console.log('calculateTotalPrice :>> ', calculateTotalPrice([164, 48, 291]));
-// console.log('calculateTotalPrice :>> ', calculateTotalPrice([412, 371, 94, 63, 176]));
+console.log('calculateTotalPrice :>> ', calculateTotalPrice([12, 85, 37, 4])); // 138
+console.log('calculateTotalPrice :>> ', calculateTotalPrice([164, 48, 291]));
+console.log('calculateTotalPrice :>> ', calculateTotalPrice([412, 371, 94, 63, 176]));
 
 // ===================
 
@@ -93,31 +93,31 @@
 
 //========================
 
-function getCommonElements(firstArray, secondArray) {
-    const commonElements = [];
-    // Пиши код ниже этой строки
+// function getCommonElements(firstArray, secondArray) {
+//     const commonElements = [];
+//     // Пиши код ниже этой строки
 
-firstArray.forEach(el => {if (secondArray.includes(el)) {
-        commonElements.push(el);
-      }
-});
-    return commonElements;
+// firstArray.forEach(el => {if (secondArray.includes(el)) {
+//         commonElements.push(el);
+//       }
+// });
+//     return commonElements;
     
 
-    // for (let i = 0; i < firstArray.length; i += 1) {
-    //   if (secondArray.includes(firstArray[i])) {
-    //     commonElements.push(firstArray[i]);
-    //   }
-    // }
+//     // for (let i = 0; i < firstArray.length; i += 1) {
+//     //   if (secondArray.includes(firstArray[i])) {
+//     //     commonElements.push(firstArray[i]);
+//     //   }
+//     // }
   
-    // return commonElements;
+//     // return commonElements;
 
-    // Пиши код выше этой строки
-}
+//     // Пиши код выше этой строки
+// }
   
-console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [2, 4]));  // 2
-console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [2, 1, 17, 19]));  // [1, 2]
-console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [10, 20, 30]));  // []
+// console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [2, 4]));  // 2
+// console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [2, 1, 17, 19]));  // [1, 2]
+// console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [10, 20, 30]));  // []
 
 
 // ====================
