@@ -93,31 +93,31 @@
 
 //========================
 
-// function getCommonElements(firstArray, secondArray) {
-//     const commonElements = [];
-//     // Пиши код ниже этой строки
+function getCommonElements(firstArray, secondArray) {
+    const commonElements = [];
+    // Пиши код ниже этой строки
 
-// firstArray.forEach(el => {if (secondArray.includes(el)) {
-//         commonElements.push(el);
-//       }
-// });
-//     return commonElements;
+firstArray.forEach(el => {if (secondArray.includes(el)) {
+        commonElements.push(el);
+      }
+});
+    return commonElements;
     
 
-//     // for (let i = 0; i < firstArray.length; i += 1) {
-//     //   if (secondArray.includes(firstArray[i])) {
-//     //     commonElements.push(firstArray[i]);
-//     //   }
-//     // }
+    // for (let i = 0; i < firstArray.length; i += 1) {
+    //   if (secondArray.includes(firstArray[i])) {
+    //     commonElements.push(firstArray[i]);
+    //   }
+    // }
   
-//     // return commonElements;
+    // return commonElements;
 
-//     // Пиши код выше этой строки
-// }
+    // Пиши код выше этой строки
+}
   
-// console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [2, 4]));  // 2
-// console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [2, 1, 17, 19]));  // [1, 2]
-// console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [10, 20, 30]));  // []
+console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [2, 4]));  // 2
+console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [2, 1, 17, 19]));  // [1, 2]
+console.log('getCommonElements :>> ', getCommonElements([1, 2, 3], [10, 20, 30]));  // []
 
 
 // ====================
@@ -135,21 +135,21 @@
 
 //     // Пиши код выше этой строки
         
-    const changeEven =(numbers, value)=> {
-    // Пиши код ниже этой строки
-    const total = [];
+//     const changeEven =(numbers, value)=> {
+//     // Пиши код ниже этой строки
+//     const total = [];
         
         
-    numbers.forEach(el => {if (el % 2 === 0) {
-        el += value;
-        console.log('el :>> ', el);
-    }
+//     numbers.forEach(el => {if (el % 2 === 0) {
+//         el += value;
+//         console.log('el :>> ', el);
+//     }
     
-});
+// });
 
-    // Пиши код выше этой строки
-}
+//     // Пиши код выше этой строки
+// }
   
-console.log('changeEven :>> ', changeEven([1, 2, 3, 4, 5], 10));
-console.log('changeEven :>> ', changeEven([2, 8, 3, 7, 4, 6], 10));
-console.log('changeEven :>> ', changeEven([44, 13, 81, 92, 36, 54], 100));
+// console.log('changeEven :>> ', changeEven([1, 2, 3, 4, 5], 10));
+// console.log('changeEven :>> ', changeEven([2, 8, 3, 7, 4, 6], 10));
+// console.log('changeEven :>> ', changeEven([44, 13, 81, 92, 36, 54], 100));
